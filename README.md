@@ -1,4 +1,4 @@
-# init.lua ✨
+# init.lua 🤡
 An attempt to bring NVIM experience closer to VSCode users. This is just a custom `init.lua` based on [this][11] user template, powered by [AstroNvim][12]. As well as a way of providing you with the capabilities of NVIM throught the familiarity of VSCode's keybindings. (***BETA VERSION***)
 
 <div align="center"><p>
