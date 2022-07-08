@@ -95,7 +95,7 @@ curl -o ~/.config/nvim/lua/{user}/init.lua https://raw.githubusercontent.com/Gio
 
 
 ## Resources
-[ctrl z crushes binbows][13]
+[ctrl z crushes binbows][13] *(if not mapped)*
 
 ## Why though?
 Because :
