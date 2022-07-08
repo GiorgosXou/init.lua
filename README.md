@@ -2,15 +2,16 @@
 An attempt to bring NVIM experience closer to VSCode users. This is just a custom `init.lua` based on [this][11] user template, powered by [AstroNvim][12]. As well as a way of providing you with the capabilities of NVIM throught the familiarity of VSCode's keybindings. (***BETA VERSION***)
 
 <div align="center"><p>
+<img src=".\images\0.gif"/>
 <img src=".\images\1.jpg"/>
 <img src=".\images\2.jpg"/>
 </p></div>
 
 
 ## Keybindings
-***Remeber*** *to always type "i" when you open a file for the first time (CTRL+Q, i and ESC are your friends)*
+***Remeber*** *to always type "i" when you open a file for the first time (CTRL+Q, i and ESC are your friends)*.
 
-***|`✅ = identical` |`🏗️ = slightly different` |`❓ = not exactly identical yet` |`✨= New (or different)`***
+<sub><sup>***|`✅ = identical` |`🏗️ = slightly different (under construction)` |`❓ = not exactly identical yet` |`✨= New (or different)`***</sub></sup>
 
 |State|         keybindings         |                  Actions performed                 |
 | --- | --------------------------- | -------------------------------------------------- |
@@ -23,8 +24,10 @@ An attempt to bring NVIM experience closer to VSCode users. This is just a custo
 |  ✅ | CTRL + SHIFT + Z            | Redo                                               |
 |  ✅ | CTRL + SHIFT + K            | Delete line                                        |
 |  ✅ | CTRL + ENTER                | Insert line below                                  |
+|  ✅ | CTRL + SPACE                | Toggle autocomplete                                |
 |  ✅ | CTRL + BACKSPACE            | Delete word behind the cursor                      |
 |  ✅ | CTRL + (UP\DOWN)            | Scroll up or down one line                         |
+|  ✅ | CTRL + LEFT_CLICK           | Go to definition                                   |
 |  ✅ | F12                         | Go to definition                                   |
 |  ✅ | BACKSPACE                   | Delete a character or the selected lines           |
 |  ✅ | HOME or END                 | Goes to the start\end of the line in a "smart" way |
@@ -35,7 +38,9 @@ An attempt to bring NVIM experience closer to VSCode users. This is just a custo
 |  ✨ | CTRL + Q                    | Quit                                               |
 |  ✨ | CTRL + G                    | Go to relative line +- Number                      |
 |  ✨ | CTRL + SHIFT + (UP/DOWN)    | Enter visual\select block mode                     |
-|  ✨ | ALT + M                     | Toggle strict mode                                 |
+|  ✨ | ALT + M                     | Toggle strict *(visual)* mode                      |
+|  ✨ | RIGHT_CLICK                 | Copy selected text                                 |
+|  🏗️ | CTRL + F                    | Find text\pattern                                  |
 |  🏗️ | CTRL + J                    | Open a terminal horizontally                       |
 |  🏗️ | CTRL + (RIGHT\LEFT)         | Jump words left or right                           |
 |  🏗️ | CTRL + SHIFT + (LEFT/RIGHT) | Select words                                       |
@@ -102,7 +107,10 @@ Because :
 
 
 ## Outro
-If you won't pay me *(i'll probably just die else)* I'll make even worse things than this, lol.
+If you won't pay me *(i'll probably just die or)* I'll make even worse things than this, lol. 
+
+* https://www.paypal.com/donate/?hosted_button_id=Z3UE347VYVZ7N
+* Bitcoin: 1L6rn2cLfFkruDM28UtpxFSan9QSoquEbR
 
 <img src="https://img.shields.io/github/last-commit/GiorgosXou/init.lua?color=%4dc71f&label=Last%20Commit%20Suicide&logo=github&style=flat-square"/>
 
