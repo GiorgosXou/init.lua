@@ -305,7 +305,7 @@ local config = {
     map.set('v', '<Tab>'             , '>gv'                                                     , bufopts)
     map.set('v', '<S-Tab>'           , '<gv'                                                     , bufopts)
     map.set('i', '<S-Tab>'           , '<ESC>v<<ESC>i<right>'                                    , bufopts)
-    map.set("i", "<C-s>"             , "<C-o>:w!<CR>"                                            , bufopts) -- On black line stays on normal mode
+    map.set("i", "<C-s>"             , "<C-o>:w!<CR>"                                            , bufopts) -- On blank line stays on normal mode
     map.set("n", "<C-s>"             , ":w!<CR>"                                                 , bufopts)
     map.set("i", "<C-q>"             , '<C-o>:q!<CR>'                                            , bufopts)
     map.set("v", "<C-q>"             , ':q!<CR>'                                                 , bufopts)
