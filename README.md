@@ -72,7 +72,11 @@ curl.exe -o $env:userprofile\.config\nvim\lua\{user}\init.lua https://raw.github
 * * ***Alacritty:***
 * * * Add the following to your `~/.config/alacritty/alacritty.yml`
 ```yml
-
+key_bindings: # https://stackoverflow.com/a/42461580/11465149
+- { key: Return,   mods: Shift        , chars: "\x1b[13;2u" }
+- { key: Return,   mods: Control      , chars: "\x1b[13;5u" }
+- { key: Z     ,   mods: Control|Shift, chars: "\x1b[26;2u" }
+- { key: J     ,   mods: Control      , chars: "\x1b[10;1u" }
 ```
 * * ***Gnome-terminal:***
 * * * [VTE, and thus GNOME Terminal, doesn't allow to modify the escape sequences  [...]][8] BUT !
