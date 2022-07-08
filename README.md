@@ -94,7 +94,7 @@ ctrl z crushes binbows
 
 ## Why though?
 Because :
-* I wanted an answer to my [Reddit post][10] and so I sinned
+* I wanted an answer to my [Reddit post][10]
 * I wanted to learn NVIM and is there any better way of learning it besides doing exactly this?
 * I wanted to make NVIM experience more easy peasy lemon squeezy to everyone (more accessible)
 * My first\virgin experience got me stuck inside NVIM therefore I had to call my step-sis to get me unstack\exit
