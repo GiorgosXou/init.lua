@@ -13,36 +13,34 @@ An attempt to bring NVIM experience closer to VSCode users. This is just a custo
 ***|`✅ = identical` |`🏗️ = slightly different` |`❓ = not exactly identical yet` |`✨= New (or different)`***
 
 |State|         keybindings         |                  Actions performed                 |
-| :-: | --------------------------- | -------------------------------------------------- |
-|  ✨ | CTRL + Q                    | Quit                                               |
+| --- | --------------------------- | -------------------------------------------------- |
 |  ✅ | CTRL + (C\V)                | Copy and paste                                     |
 |  ✅ | CTRL + X                    | Cut line or text                                   |
 |  ✅ | CTRL + S                    | (Force to) Save file                               |
 |  ✅ | CTRL + /                    | Comment lines or text                              |
 |  ✅ | CTRL + B                    | Toggle the file explorer treeview                  |
-|  🏗️ | CTRL + J                    | Open a terminal horizontally                       |
-|  ✨ | CTRL + G                    | Go to relative line +- Number                      |
 |  ✅ | CTRL + Z                    | Undo                                               |
 |  ✅ | CTRL + SHIFT + Z            | Redo                                               |
 |  ✅ | CTRL + SHIFT + K            | Delete line                                        |
 |  ✅ | CTRL + ENTER                | Insert line below                                  |
 |  ✅ | CTRL + BACKSPACE            | Delete word behind the cursor                      |
 |  ✅ | CTRL + (UP\DOWN)            | Scroll up or down one line                         |
-|  🏗️ | CTRL + (RIGHT\LEFT)         | Jump words left or right                           |
-|  ❓ | CTRL + ALT + (UP\DOWN)      | Add cursor up or down                              |
-|  ❓ | CTRL + D                    | Add cursor to a word                               |
 |  ✅ | F12                         | Go to definition                                   |
 |  ✅ | BACKSPACE                   | Delete a character or the selected lines           |
 |  ✅ | HOME or END                 | Goes to the start\end of the line in a "smart" way |
 |  ✅ | TAB                         | Indent                                             |
 |  ✅ | SHIFT + TAB                 | Shift indentation backwards                        |
 |  ✅ | SHIFT + (ARROW KEYS)        | Select text                                        |
-|  🏗️ | CTRL + SHIFT + (LEFT/RIGHT) | Select words                                       |
-|  ✨ | CTRL + SHIFT + (UP/DOWN)    | Enter visual\select block mode                     |
 |  ✅ | ALT + (UP/DOWN)             | Move line up or down                               |
+|  ✨ | CTRL + Q                    | Quit                                               |
+|  ✨ | CTRL + G                    | Go to relative line +- Number                      |
+|  ✨ | CTRL + SHIFT + (UP/DOWN)    | Enter visual\select block mode                     |
 |  ✨ | ALT + M                     | Toggle strict mode                                 |
-|  ✅ |||
-|  ✅ |||
+|  🏗️ | CTRL + J                    | Open a terminal horizontally                       |
+|  🏗️ | CTRL + (RIGHT\LEFT)         | Jump words left or right                           |
+|  🏗️ | CTRL + SHIFT + (LEFT/RIGHT) | Select words                                       |
+|  ❓ | CTRL + D                    | Add cursor to a word                               |
+|  ❓ | CTRL + ALT + (UP\DOWN)      | Add cursor up or down                              |
 
 
 
@@ -64,7 +62,7 @@ An attempt to bring NVIM experience closer to VSCode users. This is just a custo
 * If you use *(which you should!)* the [Terminal-App][3] then do [this][7]
 * Open the [Terminal-App][3] *(PowerShell)* and run:
 ```terminal
-curl.exe -o $env:userprofile\.config\nvim\lua\user\init.lua https://raw.githubusercontent.com/GiorgosXou/init.lua/main/init.lua
+curl.exe -o $env:userprofile\.config\nvim\lua\{user}\init.lua https://raw.githubusercontent.com/GiorgosXou/init.lua/main/init.lua
 ```
 * Run `nvim +PackerSync` and you are done.
 
@@ -82,7 +80,7 @@ curl.exe -o $env:userprofile\.config\nvim\lua\user\init.lua https://raw.githubus
 * * * Here's a helpfull post for [iTerm2, urxvt and Kitty][9]
 * Open your terminal and run:
 ```terminal
-curl -o ~/.config/nvim/lua/user/init.lua https://raw.githubusercontent.com/GiorgosXou/init.lua/main/init.lua
+curl -o ~/.config/nvim/lua/{user}/init.lua https://raw.githubusercontent.com/GiorgosXou/init.lua/main/init.lua
 ```
 * Run `nvim +PackerSync` and you are done.
 
@@ -100,7 +98,7 @@ Because :
 
 
 ## Outro
-If you won't pay me *(i'll probably just die but)* I'll make even worse things than this, lol.
+If you won't pay me *(i'll probably just die else)* I'll make even worse things than this, lol.
 
 <img src="https://img.shields.io/github/last-commit/GiorgosXou/init.lua?color=%4dc71f&label=Last%20Commit%20Suicide&logo=github&style=flat-square"/>
 
