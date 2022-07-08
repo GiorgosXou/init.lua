@@ -90,7 +90,7 @@ curl -o ~/.config/nvim/lua/{user}/init.lua https://raw.githubusercontent.com/Gio
 
 
 ## Resources
-ctrl z crush binbows
+ctrl z crushes binbows
 
 ## Why though?
 Because :
