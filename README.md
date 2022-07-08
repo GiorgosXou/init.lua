@@ -95,7 +95,7 @@ curl -o ~/.config/nvim/lua/{user}/init.lua https://raw.githubusercontent.com/Gio
 
 
 ## Resources
-ctrl z crushes binbows
+[ctrl z crushes binbows][13]
 
 ## Why though?
 Because :
@@ -117,7 +117,15 @@ If you won't pay me *(i'll probably just die or)* I'll make even worse things th
 
 
 <!--
+    https://github.com/hrsh7th/nvim-cmp/issues/429
     https://github.com/neovim/neovim/issues/8139 
+    https://www.reddit.com/r/neovim/comments/njt6qs/how_to_create_a_newline_in_lua/
+    https://www.reddit.com/r/neovim/comments/lldriy/get_register_n_from_lua/
+    https://www.reddit.com/r/neovim/comments/q9ifd6/enable_nvimcmp_only_on_tab/
+    https://stackoverflow.com/questions/27751462/scrolling-long-wrapped-lines-in-vim
+    https://stackoverflow.com/questions/15561132/run-command-when-vim-enters-visual-mode
+    https://unix.stackexchange.com/questions/179242/how-can-i-enter-visual-mode-after-or-to-the-right-of-the-cursor
+
     if this goes well i might consider making an init for every terminal?
 -->
 
@@ -134,3 +142,4 @@ If you won't pay me *(i'll probably just die or)* I'll make even worse things th
 [10]: https://www.reddit.com/r/neovim/comments/rup7no/vscode_keybinding_in_nvim/
 [11]: https://github.com/AstroNvim/AstroNvim/tree/main/lua/user_example
 [12]: https://github.com/AstroNvim/AstroNvim
+[13]: https://github.com/neovim/neovim/issues/8139
