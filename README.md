@@ -1,3 +1,8 @@
+
+> [!IMPORTANT]  
+> This configuration-file is not up-to-date with [AstroNvim](https://github.com/AstroNvim/AstroNvim) and is not intended to be soon. If you want a working version of it, feel free to manually configure it based on [this one](https://github.com/GiorgosXou/our-neovim-setup) and pull a request *([it is mostly just keybindings](https://github.com/GiorgosXou/init.lua/blob/64dda3cd9fe81e3cfe6d51a82c0ce8924b9d0804/init.lua#L303-L429) so i don't think it will be that difficult)*. This was basically more like a part of my journey towards learning vim-motions *(expresed in a joking manner)*, rather than anything else. Thanks for reading.
+
+
 # init.lua 🤡
 An attempt to bring NVIM experience closer to VSCode users. This is just a custom `init.lua` based on [this][11] user template, powered by [AstroNvim][12]. As well as a way of providing you with the capabilities of NVIM throught the familiarity of VSCode's keybindings. (***BETA VERSION***)
 
